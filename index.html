@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phathu's 21st Birthday Celebration · 20 June 2026</title>
+    <meta
+      name="description"
+      content="You're invited to Phathu's 21st Birthday Celebration on 20 June 2026 at Soweto West Guest House. RSVP, dress code, and more." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+
+    <!-- Lucide icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header id="navbar" class="navbar">
+      <nav class="nav container">
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#dress">Dress Code</a></li>
+          <li><a href="#notice">Notice</a></li>
+          <li><a href="#wishlist">Wish List</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </nav>
+
+      <div id="mobileMenu" class="mobile-menu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#dress">Dress Code</a></li>
+          <li><a href="#notice">Notice</a></li>
+          <li><a href="#wishlist">Wish List</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-bg-royal"></div>
+      <div class="hero-bg-radial"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-glow-accent"></div>
+      <div class="sparkles" id="heroSparkles"></div>
+
+      <div class="hero-content">
+        <div class="ornament">
+          <span class="line line-right"></span>
+          <span class="ornament-text">You're Invited</span>
+          <span class="line line-left"></span>
+        </div>
+
+        <p class="hero-eyebrow">Join us in celebrating</p>
+
+        <h1 class="hero-title gold-text">Phathu's</h1>
+        <h1 class="hero-subtitle">21st Birthday Celebration</h1>
+
+        <div class="hero-date glass-card">
+          <i data-lucide="calendar"></i>
+          <span>20 June 2026 · 14:00</span>
+        </div>
+
+        <!-- Countdown -->
+        <div class="countdown" id="countdown">
+          <div class="countdown-unit glass-card">
+            <div class="countdown-value gold-text" id="cd-days">00</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-unit glass-card">
+            <div class="countdown-value gold-text" id="cd-hours">00</div>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-unit glass-card">
+            <div class="countdown-value gold-text" id="cd-minutes">00</div>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-unit glass-card">
+            <div class="countdown-value gold-text" id="cd-seconds">00</div>
+            <div class="countdown-label">Seconds</div>
+          </div>
+        </div>
+
+        <a
+          href="#details"
+          class="scroll-indicator"
+          aria-label="Scroll to details">
+          <span>Discover</span>
+          <i data-lucide="chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- DETAILS -->
+    <section id="details" class="section section-details">
+      <div class="section-bg-fade"></div>
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span><span>The Occasion</span
+            ><span class="eyebrow-line"></span>
+          </div>
+          <h2>Event <span class="gold-text">Details</span></h2>
+          <p class="subtitle">
+            Mark your calendars for an evening of elegance and celebration
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="info-card glass-card">
+            <div class="info-icon"><i data-lucide="calendar-days"></i></div>
+            <div class="info-label">Date</div>
+            <div class="info-primary">20 June 2026</div>
+            <div class="info-secondary">Saturday</div>
+          </div>
+          <div class="info-card glass-card">
+            <div class="info-icon"><i data-lucide="clock"></i></div>
+            <div class="info-label">Time</div>
+            <div class="info-primary">14:00</div>
+            <div class="info-secondary">Until late</div>
+          </div>
+          <div class="info-card glass-card">
+            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+            <div class="info-label">Venue</div>
+            <div class="info-primary">Soweto West Guest House</div>
+            <div class="info-secondary">Johannesburg</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DRESS CODE -->
+    <section id="dress" class="section section-dress">
+      <div class="dress-glow-left"></div>
+      <div class="dress-glow-right"></div>
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span><span>Attire</span
+            ><span class="eyebrow-line"></span>
+          </div>
+          <h2>Dress <span class="gold-text">Code</span></h2>
+          <p class="subtitle">
+            Dress to impress — let's make this night unforgettable
+          </p>
+        </div>
+
+        <div class="grid grid-2 dress-grid">
+          <div class="dress-card glass-card">
+            <div class="dress-eyebrow">Gentlemen</div>
+            <div class="dress-circle dress-circle-dark">
+              <i data-lucide="shirt"></i>
+            </div>
+            <h3>Black Tie</h3>
+            <p class="italic">Sharp formal suit</p>
+            <div class="dots"></div>
+          </div>
+
+          <div class="dress-card glass-card">
+            <div class="dress-eyebrow">Ladies</div>
+            <div class="dress-circle dress-circle-dark">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <h3>Royal Blue Dress</h3>
+            <p class="italic">Elegant gown in royal blue</p>
+            <div class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOTICE -->
+    <section id="notice" class="section section-notice">
+      <div class="container container-narrow">
+        <div class="notice-wrap glow-pulse">
+          <div class="notice-gradient"></div>
+          <div class="notice-inner">
+            <div class="notice-pill">
+              <i data-lucide="alert-circle"></i>
+              <span>Important Notice</span>
+            </div>
+            <div class="notice-icon">
+              <i data-lucide="wine"></i>
+            </div>
+            <h2>This is a <span class="gold-text">B.O.B</span> Party</h2>
+            <div><span></span></div>
+            <p class="notice-body">
+              Please bring your own drinks for the after-party vibes
+              <span class="emoji">🍾</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WISHLIST -->
+    <section id="wishlist" class="section section-wishlist">
+      <div class="section-bg-fade"></div>
+      <div class="container">
+        <div class="section-title">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span><span>With Love</span
+            ><span class="eyebrow-line"></span>
+          </div>
+          <h2>Wish <span class="gold-text">List</span></h2>
+          <p class="subtitle">
+            Your presence is appreciated, but if you'd like to gift something…
+          </p>
+        </div>
+
+        <div class="grid grid-4">
+          <div class="gift-card glass-card">
+            <div class="gift-icon"><i data-lucide="gift"></i></div>
+            <h3>Woolworths</h3>
+            <p>Gift Card</p>
+          </div>
+          <div class="gift-card glass-card">
+            <div class="gift-icon"><i data-lucide="gift"></i></div>
+            <h3>Game</h3>
+            <p>Gift Card</p>
+          </div>
+          <div class="gift-card glass-card">
+            <div class="gift-icon"><i data-lucide="gift"></i></div>
+            <h3>Dis-Chem</h3>
+            <p>Gift Card</p>
+          </div>
+          <div class="gift-card glass-card">
+            <div class="gift-icon"><i data-lucide="gift"></i></div>
+            <h3>Clicks</h3>
+            <p>Gift Card</p>
+          </div>
+        </div>
+
+        <div class="wishlist-footer">
+          <i data-lucide="gift"></i>
+          <span>Thank you for your generosity</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section id="rsvp" class="section section-rsvp">
+      <div class="hero-bg-royal"></div>
+      <div class="hero-bg-radial"></div>
+      <div class="sparkles" id="rsvpSparkles"></div>
+
+      <div class="container container-narrow">
+        <div class="section-title">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span><span>Confirm Your Seat</span
+            ><span class="eyebrow-line"></span>
+          </div>
+          <h2><span class="gold-text">RSVP</span></h2>
+          <p class="subtitle">Please confirm your attendance</p>
+        </div>
+
+        <div class="rsvp-card glass-card">
+          <p class="rsvp-label">Contact</p>
+          <h3 class="rsvp-name">Phathu</h3>
+          <a href="tel:0682229900" class="rsvp-phone">068 494 5361</a>
+
+          <div class="rsvp-actions">
+            <a href="tel:0684945361" class="btn btn-gold">
+              <i data-lucide="phone"></i>
+              Call Now
+            </a>
+            <a
+              href="https://wa.me/27684945361?text=Hi%20Phathu!%20I'm%20RSVPing%20for%20your%2021st%20Birthday%20Celebration%20%F0%9F%8E%89"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline">
+              <i data-lucide="message-circle"></i>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <p class="rsvp-footnote">Looking forward to celebrating with you ✨</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-brand">
+          <i data-lucide="crown"></i>
+          <span class="gold-text">Phathutshedzo's 21st</span>
+          <i data-lucide="crown"></i>
+        </div>
+        <p class="footer-date">20 · 06 · 2026</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
