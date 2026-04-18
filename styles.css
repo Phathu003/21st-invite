@@ -173,6 +173,12 @@ svg {
   box-shadow: var(--shadow-card);
 }
 
+#booze-div {
+  font-size: 7px;
+  font-style: italic;
+  color: darkgrey;
+}
+
 .gold-text {
   background: var(--gradient-gold);
   -webkit-background-clip: text;
